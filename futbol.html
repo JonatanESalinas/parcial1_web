@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <button onclick="getMyIp()">Obtener datos del Manchester</button>
+
+        <button onclick="getTeams()">Obtener equipos mexicanos</button> 
+
+        <div id="resultado"></div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>     
+        <script src="futbol.js"> </script>
+
+        <div id="wg-api-football-livescore"
+        data-host="v3.football.api-sports.io"
+        data-refresh="60"
+        data-key="54d73f30696201875491a2f00dae6602"
+        data-theme=""
+        data-show-errors="false"
+        class="api_football_loader">
+        </div>
+        <script
+            type="module"
+            src="https://widgets.api-sports.io/football/1.1.8/widget.js"> 
+        </script>
+        
+        <!--Este es otro ejemplo de widget:-->
+        <!--
+        <div id="wg-api-football-fixture"
+            data-host="v3.football.api-sports.io"
+            data-refresh="60"
+            data-id="718243"
+            data-key="54d73f30696201875491a2f00dae6602"
+            data-theme=""
+            data-show-errors="false"
+            class="api_football_loader">
+        </div>
+        <script
+            type="module"
+            src="https://widgets.api-sports.io/football/1.1.8/widget.js">
+        </script>
+        -->
+
+    </body>
+</html>
