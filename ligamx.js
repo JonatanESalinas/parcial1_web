@@ -26,6 +26,7 @@ function getTablaGeneral() {
             var celda_puntos_tabla = document.getElementById("puntos_"+ (i+1).toString());
 
             celda_logo_tabla.src = logoTempSrc;
+            celda_logo_tabla.width = "50";
             celda_nombre_tabla.innerHTML = equipoTemp;
             celda_puntos_tabla.innerHTML = puntosTemp;
         }
