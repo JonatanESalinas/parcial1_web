@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+body {
+  background: #F5F5F5;
+  padding: 3em;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000;
+}
+
+.custom-select select {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000;
+}
+
+.custom-button {
+  background-color: #FFFFFF;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000;
+}
