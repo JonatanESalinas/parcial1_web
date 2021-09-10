@@ -5,5 +5,5 @@ function enviar_datos_contacto(){
     nombreUsuario = nombreElement.value;
     emailUsuario = emailElement.value;
 
-    alert("Gracias por suscribirse, " + nombreUsuario + ".\nLe llegaran las mejores noticias de la LigaMX al correo: " + emailUsuario);
+    alert("Gracias por suscribirse, " + nombreUsuario + ".\nLe llegaran las mejores noticias de la LigaMX al correo:  " + emailUsuario);
 }
