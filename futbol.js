@@ -1,6 +1,6 @@
 function getMyIp() {
   var settings = {
-    "url": "https://v3.football.api-sports.io/teams/statistics?season=2019&team=33&league=39",
+    "url": "https://v3.football.api-sports.io/standings?league=262&season=2021",
     "method": "GET",
     "timeout": 0,
     "headers": {
