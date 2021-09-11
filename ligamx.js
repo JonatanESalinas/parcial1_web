@@ -26,7 +26,7 @@ function getMyInfo() {
     		nEquipo.innerHTML = response.response[0].team.name;
     		var lEquipo = document.getElementById("logoEquipo").src = response.response[0].team.logo;
     		var fund = document.getElementById("fundacion");
-    		fund.innerHTML = "<b>Año de fundación: </b>" + response.response[0].team.founded;
+    		fund.innerHTML = "<b>A\u00F1o de fundaci\u00F3n: </b>" + response.response[0].team.founded;
     		var est = document.getElementById("estadio");
     		est.innerHTML = "<b>Estadio: </b>" + response.response[0].venue.name;
     		var cap = document.getElementById("capacidad");
