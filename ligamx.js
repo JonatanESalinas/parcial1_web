@@ -5,7 +5,7 @@ function getMyInfo() {
     		"method": "GET",
     		"timeout": 0,
     		"headers": {
-      			"x-rapidapi-key": "02e1d5d670934c418dc9a873f482926e",
+      			"x-rapidapi-key": "54d73f30696201875491a2f00dae6602",
       			"x-rapidapi-host": "v3.football.api-sports.io"
     		},
   	};
