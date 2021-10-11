@@ -16,7 +16,7 @@ The "Contact" section displays an alert message, only for demonstration purposes
 
 The information to fill the standings table and the information to display each team's information is gotten from
 the [Api-Football](https://www.api-football.com) API using jQuery. Docker was used to put the web page on a
-Google Cloud server. You can visit the web page using this direction: http://34.102.0.104
+Google Cloud server.
 
 ## Made by
 Víctor Darío Alor López         A01731643
